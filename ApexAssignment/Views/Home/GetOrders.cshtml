@@ -1,0 +1,63 @@
+﻿@model System.Collections.Generic.List<ApexAssignment.ViewModels.OrderViewModel>
+
+@{
+    ViewBag.Title = "title";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="tg-wrap"><table id="tg-mcNMp" class="tg">
+    <tr>
+        <th class="tg-yw4l">Sold At</th>
+        <th class="tg-yw4l">Sold To</th>
+        <th class="tg-yw4l">Account Number</th>
+        <th class="tg-yw4l">Invoice #</th>
+        <th class="tg-yw4l">Customer PO #</th>
+        <th class="tg-yw4l">Order Date</th>
+        <th class="tg-yw4l">Due Date</th>
+        <th class="tg-yw4l">Invoice Total</th>
+        <th class="tg-yw4l">Product Number</th>
+        <th class="tg-yw4l">Order Qty</th>
+        <th class="tg-yw4l">Unit Net</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td class="tg-yw4l">
+                @item.Store
+            </td>
+            <td class="tg-yw4l">
+                @item.Customer
+            </td>
+            <td class="tg-yw4l">
+                @item.AccountNumber
+            </td>
+            <td class="tg-yw4l">
+                @item.InvoiceNumber
+            </td>
+            <td class="tg-yw4l">
+                @item.CustomerPO
+            </td>
+            <td class="tg-yw4l">
+                @item.OrderDate
+            </td>
+            <td class="tg-yw4l">
+                @item.DueDate
+            </td>
+            <td class="tg-yw4l">
+                @item.InvoiceTotal
+            </td>
+            <td class="tg-yw4l">
+                @item.ProductNumber
+            </td>
+            <td class="tg-yw4l">
+                @item.Quantity
+            </td>
+            <td class="tg-yw4l">
+                @item.UnitNet
+            </td>
+    </tr>
+    }
+    
+</table></div>
+
+

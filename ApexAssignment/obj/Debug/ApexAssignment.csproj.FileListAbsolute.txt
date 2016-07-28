@@ -48,3 +48,5 @@ c:\users\seanmc\documents\visual studio 2015\Projects\ApexAssignment\ApexAssignm
 c:\users\seanmc\documents\visual studio 2015\Projects\ApexAssignment\ApexAssignment\obj\Debug\ApexAssignment.csprojResolveAssemblyReference.cache
 c:\users\seanmc\documents\visual studio 2015\Projects\ApexAssignment\ApexAssignment\obj\Debug\ApexAssignment.dll
 c:\users\seanmc\documents\visual studio 2015\Projects\ApexAssignment\ApexAssignment\obj\Debug\ApexAssignment.pdb
+C:\Users\SeanMc\documents\visual studio 2015\Projects\ApexAssignment\ApexAssignment\bin\EPPlus.dll
+C:\Users\SeanMc\documents\visual studio 2015\Projects\ApexAssignment\ApexAssignment\bin\EPPlus.xml
